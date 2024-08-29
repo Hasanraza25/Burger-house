@@ -1,0 +1,77 @@
+
+
+
+@use '../custom' as *;
+
+
+.heading{
+	font-family: "Alfa Slab One", serif;
+	text-transform: uppercase;
+	color: $primary;
+
+	&--1{
+		font-size: 6.25rem;
+		filter: drop-shadow(3px 3px #fee7ba);
+	}
+	&--2{
+		font-size: 3.25rem;
+		filter: drop-shadow(3px 3px #fee7ba);
+
+	}
+}
+
+.choose-description{
+	h2{
+		font-family: "Alfa Slab One", serif;
+		font-size: 3rem;
+		text-transform: uppercase;
+		color: $primary;
+	}
+	p{
+		padding: 5px 6.25rem;
+		color: $primary;
+		font-size: 16px;
+		font-family: "Montserrat", sans-serif;
+		font-weight: 400;
+	}	
+}
+
+.slider{
+  &--text{
+  	padding-top: 2rem;
+    h2{
+ 		font-size: 1.3rem;  
+ 		font-family: "Bebas Neue", sans-serif;
+ 		text-transform: uppercase; 
+ 		letter-spacing: .2rem; 
+ 		display: inline; 
+ 		color: #3d3d3d;
+    }
+    h1{
+    	font-family: "Alfa Slab One", serif;
+    	text-transform: uppercase;
+    	color: $primary;
+    	font-size: 2.3rem;
+    	padding-bottom: 1.5rem;
+    }
+    p{
+    	color: #3d3d3d;
+    	font-size: 18px;
+    }
+  }
+}
+
+.heading-sec-5{
+	h3{
+ 		font-family: "Bebas Neue", sans-serif;
+		color: $primary;
+		letter-spacing: .1rem;
+		z-index: 1;	
+	}
+	h1{
+    	font-family: "Alfa Slab One", serif;
+		color: $primary;
+		z-index: 1;	
+		font-size: 3rem;
+	}
+}

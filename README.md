@@ -2,6 +2,10 @@
 
 **Burger House** is a responsive website for a fictional burger restaurant. The project is built using Bootstrap and Sass, focusing on creating a modern and user-friendly interface.
 
+## Live Demo
+
+Check out the live demo of the project [here](https://hasanraza25.github.io/Burger-house/).
+
 ## 🚀 Features
 
 - **Responsive Design:** Fully responsive design that works seamlessly on desktops, tablets, and mobile devices.
